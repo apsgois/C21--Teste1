@@ -30,14 +30,11 @@ public class MockDadosService implements DadosService {
         else if (sala == 8){
             return DadosConst.Flavia;
         }
-        else if (sala == 9){
+        else if (sala == 9) {
             return DadosConst.MJ;
         }
-        else if (sala == 10) {
-            return DadosConst.Joaquim;
-        }
         else{
-            return DadosConst.INEXISTENTE;
+            return DadosConst.Joaquim;
         }
     }
 
